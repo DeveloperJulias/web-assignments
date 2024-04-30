@@ -1,0 +1,163 @@
+* {
+
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(151, 151, 192);
+}
+
+.navbar ul {
+    list-style: none;
+
+}
+
+.navbar ul li a {
+    margin-left: 2em;
+    padding: 2px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container {
+    display: flex;
+
+    /* flex-direction: column; */
+    /* align-items: center; */
+}
+
+.content {
+    padding-top: 5em;
+    margin-left: 6em;
+    font-size: 1em;
+
+}
+
+.navbar {
+    display: flex;
+    font-size: 18px;
+}
+
+.content h2 {
+    /* margin-left: 1em; */
+    font-size: 2em;
+
+}
+
+.content h1 {
+    color: orange;
+    font-size: 3em;
+}
+
+#contact {
+    background-color: orange;
+    border-radius: 10px;
+    padding: 8px;
+
+}
+
+.redirect a {
+    background-color: orange;
+    border-radius: 10px;
+    padding: 8px;
+
+}
+
+.logincard {
+    margin-left: 19em;
+    background-color: rgb(51, 51, 124);
+    height: 30em;
+    width: 18em;
+    border-radius: 10px;
+    /* align-items: center; */
+}
+
+.logincard button {
+    border: white;
+    height: 3em;
+    width: 20em;
+    margin: 10px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.logincard button h3 {
+    color: orange;
+    font-size: 18px;
+    margin: 1px;
+
+}
+
+#btn {
+    border: white;
+    height: 3em;
+    width: 20em;
+    margin: 10px;
+    margin-right: 10px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+#searching {
+    padding: 18px;
+    margin-left: 13em;
+
+}
+
+#searching button {
+    padding: 12px;
+    margin-right: 1px;
+    border: 1px solid orange;
+    background-color: orange;
+    border-radius: 5px;
+
+}
+
+#searching [type=text] {
+    padding: 12px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: rgb(151, 151, 192);
+}
+
+#searching [type=text]::placeholder {
+    color: white;
+
+}
+
+.cardinputs {
+    margin: 4px;
+}
+
+.cardinputs [type=text],
+[type=password] {
+    background-color: rgba(51, 51, 124);
+    border: none;
+    border-bottom: 1px solid orange;
+    padding: 1em;
+
+
+}
+
+.cardinputs [type=text]::placeholder {
+
+    color: white;
+    background-color: rgba(51, 51, 124);
+
+}
+
+.cardinputs [type=password]::placeholder {
+
+    color: white;
+    background-color: rgba(51, 51, 124);
+}
+
+.signup {
+    text-align: center;
+}
+
+ 

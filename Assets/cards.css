@@ -1,0 +1,88 @@
+                    
+                   * {
+                    padding: 0;
+                    margin: 0;
+                    box-sizing: border-box;
+                    text-decoration: none;
+                }
+                
+                body {
+                    /* background-color: rgb(235, 130, 130); */
+                    color: white;
+                }
+                
+                img {
+                    width: 100%;
+                    margin: 0;
+                }
+                
+                .container {
+                    /* padding:; */
+                    display: flex;
+                }
+                h1{
+                    color: rgb(75, 182, 43);
+                    text-align: center;
+                    font-size: 2.5em;
+                
+                } 
+                    
+                    
+                    
+                    .card {
+                        background-color: white;
+                        text-align: center;
+                        width: 50%;
+                        height: 50%;
+                        border: 1px solid rgb(89, 36, 175);
+                        padding-top: 0px;
+                        border-radius: 20px;
+                        padding: 1px 1px 30px 1px;
+                        /* margin: 2em; */
+                        margin: 20px;
+                        color: blue;
+                        /* box-shadow: 10px red; */
+                    }
+
+                    .card>img {
+                        margin-top: 0;
+                        border-radius: 20px;
+                    }
+
+                    .card h3 {
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        font-size: 1em;
+                    }
+
+                    .card>p {
+                        font-family: Georgia, 'Times New Roman', Times, serif;
+                    }
+
+                    .card>a {
+                        color: green;
+                        padding: 10px;
+                        border-radius: 10px;
+                        border: 3px solid rgb(80, 80, 236);
+                        font-family: monospace;
+                        font-size: 20px;
+                    }
+
+                    .card:hover {
+                        background-color: orange;
+                        border: 1px solid white;
+                    }
+
+                    .card p:hover {
+                        cursor: progress;
+                        font-size: 18px;
+                        color:white;
+                        transition: 4S;
+                    }
+                    .card a:hover {
+                        background-color: green;
+                        color: white;
+                        border: 1px solid green;
+                        padding: 10px;
+                        
+                    }
+                 
